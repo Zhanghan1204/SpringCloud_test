@@ -14,6 +14,6 @@ public class RemoteHandler {
 
     @GetMapping("/index")
    public String index(){
-       return "端口:"+this.port;
+       return this.port;
    }
 }
