@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/remote")
 public class RemoteHandler {
 
-    @Value("${server.port}")
+    @Value("${hello.world}")
     private String port;
 
     @GetMapping("/index")
