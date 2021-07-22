@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
+        <module name="configclient_remote" />
         <module name="config_server_native" />
         <module name="config_client_native" />
         <module name="zuul_gateway" />
         <module name="resttemplate" />
         <module name="feign" />
         <module name="ribbon" />
+        <module name="configserver_remote" />
         <module name="eurekaserver" />
         <module name="consumer" />
         <module name="eurekaclient" />
@@ -24,6 +26,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config_client_native" options="-parameters" />
       <module name="config_server_native" options="-parameters" />
+      <module name="configclient_remote" options="-parameters" />
+      <module name="configserver_remote" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />

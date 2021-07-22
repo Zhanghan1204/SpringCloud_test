@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Zhanghan1204/springcloud_test.git  #复制项目的github的地址
+          search-paths: config   #检索路径,配置文件在仓库中的位置
+          username: Zhanghan1204
+          password: JHAha1563
+      label: master       #从master的分支中获取
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
