@@ -9,14 +9,14 @@ spring:
         git:
           uri: https://github.com/Zhanghan1204/springcloud_test.git  #复制项目的github的地址
           search-paths: config   #检索路径,配置文件在仓库中的位置
-          #使用用户名及密码登录git,公共仓库可以不用配置用户名和密码
+          #第一种:使用用户名及密码登录git,公共仓库可以不用配置用户名和密码
           #username:    #git用户名
           #password:    #git密码
 
-          #使用Token登录git
-          private-key:
+          #第二种:使用密钥登录git
+          #private-key:
       label: master       #从master的分支中获取
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://localhost:8761/eureka/
