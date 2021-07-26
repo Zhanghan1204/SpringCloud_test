@@ -6,8 +6,8 @@ spring:
   cloud:
     config: #Config客户端配置
       name: configclient  #对应配置文件的名字
+      #profile: dev #启用配置后缀名称  配置文件名称为name+"-"+profile,即configclient-dev
       label: master #分支名称
-      #profile: dev #启用配置后缀名称
       uri: http://localhost:8888 #配置中心地址configserver的地址
 eureka:
   client:

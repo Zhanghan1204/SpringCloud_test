@@ -45,3 +45,6 @@ Hystrix 数据监控需要结合 Spring Boot Actuator 来使⽤，Actuator 提�
 也可以将配置⽂件存储在远程 Git 仓库，创建 Config Server，通过它管理所有的配置⽂件。  
 
 config不会在eureka中注册
+
+**算法:**  
+最小覆盖子串:`http://localhost:8020/test01/checkStr/asdfertgdafasda/atd`
