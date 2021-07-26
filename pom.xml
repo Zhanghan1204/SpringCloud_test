@@ -23,6 +23,7 @@
         <module>configclient_remote</module>
         <module>zipkin_server</module>
         <module>zipkin_client</module>
+        <module>jwt</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

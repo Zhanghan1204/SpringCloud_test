@@ -10,6 +10,7 @@
         <module name="ribbon" />
         <module name="config_client_native" />
         <module name="consumer" />
+        <module name="jwt" />
         <module name="feign" />
         <module name="zuul_gateway" />
         <module name="zipkin_client" />
@@ -35,6 +36,7 @@
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="jwt" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="springcloud" options="-parameters" />
