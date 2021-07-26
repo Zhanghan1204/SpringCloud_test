@@ -41,10 +41,16 @@ Hystrix 数据监控需要结合 Spring Boot Actuator 来使⽤，Actuator 提�
 可视化的监控界⾯:`http://localhost:8060/hystrix` 输⼊要监控的地址节点即可看到该节点的可视化数据监控  
 
 **Config**  
+
 管理各个微服务的配置中心,通过服务端可以为多个客户端提供配置服务。Spring Cloud Config 可以将配置⽂件存储在本地，
 也可以将配置⽂件存储在远程 Git 仓库，创建 Config Server，通过它管理所有的配置⽂件。  
 
 config不会在eureka中注册
 
 **算法:**  
-最小覆盖子串:`http://localhost:8020/test01/checkStr/asdfertgdafasda/atd`
+最小覆盖子串:`http://localhost:8020/test01/checkStr/asdfertgdafasda/atd`  
+
+**Zipkin服务跟踪**  spring cloud zipkin  
+zipkin不会在注册中心注册
+方便跟踪服务请求经过的微服务的模块,能够方便分析系统的性能或者方便解决问题  
+Zipkin包括:Zipkin server(收集数据)、Zipkin client(展示数据)

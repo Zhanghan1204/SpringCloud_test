@@ -1,0 +1,18 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: zipkinclient
+  #通过sleuth进行数据跟踪
+  sleuth:
+    web:
+      client:
+        enabled: true  #设置开启请求跟踪
+    sampler:
+      probability: 1.0  #设置采样比例 默认是1.0
+  zipkin:
+    base-url: http://localhost:9090/    #zipkin的访问地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

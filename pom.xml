@@ -21,6 +21,8 @@
         <module>config_client_native</module>
         <module>configserver</module>
         <module>configclient_remote</module>
+        <module>zipkin_server</module>
+        <module>zipkin_client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
