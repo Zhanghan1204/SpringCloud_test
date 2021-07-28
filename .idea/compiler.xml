@@ -7,10 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ribbon" />
+        <module name="jwt" />
         <module name="config_client_native" />
         <module name="consumer" />
-        <module name="jwt" />
+        <module name="ribbon" />
         <module name="feign" />
         <module name="zuul_gateway" />
         <module name="zipkin_client" />
