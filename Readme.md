@@ -55,4 +55,5 @@ zipkin不会在注册中心注册
 方便跟踪服务请求经过的微服务的模块,能够方便分析系统的性能或者方便解决问题  
 Zipkin包括:Zipkin server(收集数据)、Zipkin client(展示数据)  
 启动服务中心->zipkin server ->zipkin client后,
-访问地址:`http://localhost:9090/zipkin` 可以查看服务接口的访问情况
+访问地址:`http://localhost:9090/zipkin` 可以查看服务接口的访问情况  
+

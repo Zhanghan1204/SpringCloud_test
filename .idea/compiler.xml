@@ -9,13 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
         <module name="config_client_native" />
+        <module name="feign" />
         <module name="consumer" />
         <module name="ribbon" />
-        <module name="feign" />
+        <module name="eurekaclient" />
         <module name="zuul_gateway" />
         <module name="zipkin_client" />
         <module name="hystrix" />
-        <module name="eurekaclient" />
         <module name="resttemplate" />
         <module name="eurekaserver" />
         <module name="configclient_remote" />
